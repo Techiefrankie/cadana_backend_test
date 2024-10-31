@@ -81,7 +81,8 @@ To build the project, run the following command in the root directory
 - To run the application, execute the command below in the root directory
 
     `./gradlew bootrun`
-- Send a post request to the endpoint `localhost:8080/api/v1/rates/` passing the body below
+- Send a post request to the endpoint `localhost:8080/api/v1/rates/conversion` passing the body below
+
   `{"currency-pair": "EUR-USD"}`
 - Optionally, play with different currency pairs to see the different rates.
 - Enter control + c to stop the service when desired. 
