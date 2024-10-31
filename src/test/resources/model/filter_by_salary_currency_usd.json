@@ -1,0 +1,42 @@
+[
+  {
+    "id":"X",
+    "personName":"Cadanaut X",
+    "salary":{
+      "value":10,
+      "currency":"USD"
+    }
+  },
+  {
+    "id":"Y",
+    "personName":"Cadanaut Y",
+    "salary":{
+      "value":20,
+      "currency":"USD"
+    }
+  },
+  {
+    "id":"Z",
+    "personName":"Cadanaut Z",
+    "salary":{
+      "value":30,
+      "currency":"USD"
+    }
+  },
+  {
+    "id":"D",
+    "personName":"Black J",
+    "salary":{
+      "value":22,
+      "currency":"USD"
+    }
+  },
+  {
+    "id":"F",
+    "personName":"Park M",
+    "salary":{
+      "value":17,
+      "currency":"USD"
+    }
+  }
+]

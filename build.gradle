@@ -1,0 +1,48 @@
+plugins {
+    id 'java'
+    id 'org.springframework.boot' version '3.3.5'
+    id 'io.spring.dependency-management' version '1.1.6'
+}
+
+group = 'com.cadana'
+version = '0.0.1-SNAPSHOT'
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(17)
+    }
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    def v
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+
+    // retrofit
+    implementation 'com.squareup.retrofit2:retrofit:2.11.0'
+    implementation 'com.squareup.retrofit2:converter-jackson:2.11.0'
+
+    // lombok
+    v = "1.18.34"
+    annotationProcessor "org.projectlombok:lombok:${v}"
+    compileOnly 'org.projectlombok:lombok'
+    testImplementation "org.projectlombok:lombok:${v}"
+    testAnnotationProcessor "org.projectlombok:lombok:${v}"
+
+    // AWS Secrets Manager client
+    implementation 'software.amazon.awssdk:secretsmanager:2.20.112'
+    // AWS SDK Core module
+    implementation 'software.amazon.awssdk:core:2.20.112'
+
+    testImplementation 'org.mockito:mockito-core:3.7.7'
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.11.0'
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+    testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+}
+
+tasks.named('test') {
+    useJUnitPlatform()
+}

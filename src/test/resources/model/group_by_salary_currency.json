@@ -1,0 +1,90 @@
+{
+  "EUR":[
+    {
+      "id":"A",
+      "personName":"John D",
+      "salary":{
+        "value":15,
+        "currency":"EUR"
+      }
+    },
+    {
+      "id":"E",
+      "personName":"Manthusa H",
+      "salary":{
+        "value":10,
+        "currency":"EUR"
+      }
+    }
+  ],
+  "NGN":[
+    {
+      "id":"C",
+      "personName":"Aisha B",
+      "salary":{
+        "value":50,
+        "currency":"NGN"
+      }
+    },
+    {
+      "id":"H",
+      "personName":"Hassan K",
+      "salary":{
+        "value":100,
+        "currency":"NGN"
+      }
+    }
+  ],
+  "PKR":[
+    {
+      "id":"B",
+      "personName":"Doe J",
+      "salary":{
+        "value":25,
+        "currency":"PKR"
+      }
+    }
+  ],
+  "USD":[
+    {
+      "id":"X",
+      "personName":"Cadanaut X",
+      "salary":{
+        "value":10,
+        "currency":"USD"
+      }
+    },
+    {
+      "id":"Y",
+      "personName":"Cadanaut Y",
+      "salary":{
+        "value":20,
+        "currency":"USD"
+      }
+    },
+    {
+      "id":"Z",
+      "personName":"Cadanaut Z",
+      "salary":{
+        "value":30,
+        "currency":"USD"
+      }
+    },
+    {
+      "id":"D",
+      "personName":"Black J",
+      "salary":{
+        "value":22,
+        "currency":"USD"
+      }
+    },
+    {
+      "id":"F",
+      "personName":"Park M",
+      "salary":{
+        "value":17,
+        "currency":"USD"
+      }
+    }
+  ]
+}
